@@ -1,0 +1,29 @@
+{
+    "name": "gauravjain028/lara-shippings",
+    "description": "A complete shipping package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gaurav Jain",
+            "email": "gaurav.jain028@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Gauravjain028\\LaraShippings\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gauravjain028\\LaraShippings\\SocialiteServiceProvider"
+            ],
+            "aliases": {
+                "Socialite": "Gauravjain028\\LaraShippings\\Facades\\LaraShippings"
+            }
+        }
+    },
+    "require": {}
+}
